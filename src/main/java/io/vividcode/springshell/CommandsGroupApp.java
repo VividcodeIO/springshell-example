@@ -10,7 +10,6 @@ public class CommandsGroupApp {
   @ShellMethod("Command1")
   public void command1() {}
 
-  @ShellMethod(value = "Command2",
-      group = "Basic Group")
+  @ShellMethod(value = "Command2", group = "Basic Group")
   public void command2() {}
 }
